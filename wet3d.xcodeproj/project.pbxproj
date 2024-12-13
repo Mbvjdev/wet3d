@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		769DCE522D0B83B6002A42CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769DCE382D0B83B3002A42CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769DCE3F2D0B83B3002A42CB;
+			remoteInfo = wet3d;
+		};
+		769DCE5C2D0B83B6002A42CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769DCE382D0B83B3002A42CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769DCE3F2D0B83B3002A42CB;
+			remoteInfo = wet3d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		769DCE402D0B83B3002A42CB /* wet3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wet3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769DCE512D0B83B6002A42CB /* wet3dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wet3dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769DCE5B2D0B83B6002A42CB /* wet3dUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wet3dUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		769DCE422D0B83B3002A42CB /* wet3d */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wet3d;
+			sourceTree = "<group>";
+		};
+		769DCE542D0B83B6002A42CB /* wet3dTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wet3dTests;
+			sourceTree = "<group>";
+		};
+		769DCE5E2D0B83B6002A42CB /* wet3dUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = wet3dUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769DCE3D2D0B83B3002A42CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE4E2D0B83B6002A42CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE582D0B83B6002A42CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		769DCE372D0B83B3002A42CB = {
+			isa = PBXGroup;
+			children = (
+				769DCE422D0B83B3002A42CB /* wet3d */,
+				769DCE542D0B83B6002A42CB /* wet3dTests */,
+				769DCE5E2D0B83B6002A42CB /* wet3dUITests */,
+				769DCE412D0B83B3002A42CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		769DCE412D0B83B3002A42CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769DCE402D0B83B3002A42CB /* wet3d.app */,
+				769DCE512D0B83B6002A42CB /* wet3dTests.xctest */,
+				769DCE5B2D0B83B6002A42CB /* wet3dUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769DCE3F2D0B83B3002A42CB /* wet3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769DCE652D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3d" */;
+			buildPhases = (
+				769DCE3C2D0B83B3002A42CB /* Sources */,
+				769DCE3D2D0B83B3002A42CB /* Frameworks */,
+				769DCE3E2D0B83B3002A42CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				769DCE422D0B83B3002A42CB /* wet3d */,
+			);
+			name = wet3d;
+			packageProductDependencies = (
+			);
+			productName = wet3d;
+			productReference = 769DCE402D0B83B3002A42CB /* wet3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769DCE502D0B83B6002A42CB /* wet3dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769DCE682D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3dTests" */;
+			buildPhases = (
+				769DCE4D2D0B83B6002A42CB /* Sources */,
+				769DCE4E2D0B83B6002A42CB /* Frameworks */,
+				769DCE4F2D0B83B6002A42CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769DCE532D0B83B6002A42CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				769DCE542D0B83B6002A42CB /* wet3dTests */,
+			);
+			name = wet3dTests;
+			packageProductDependencies = (
+			);
+			productName = wet3dTests;
+			productReference = 769DCE512D0B83B6002A42CB /* wet3dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769DCE5A2D0B83B6002A42CB /* wet3dUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769DCE6B2D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3dUITests" */;
+			buildPhases = (
+				769DCE572D0B83B6002A42CB /* Sources */,
+				769DCE582D0B83B6002A42CB /* Frameworks */,
+				769DCE592D0B83B6002A42CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769DCE5D2D0B83B6002A42CB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				769DCE5E2D0B83B6002A42CB /* wet3dUITests */,
+			);
+			name = wet3dUITests;
+			packageProductDependencies = (
+			);
+			productName = wet3dUITests;
+			productReference = 769DCE5B2D0B83B6002A42CB /* wet3dUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769DCE382D0B83B3002A42CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					769DCE3F2D0B83B3002A42CB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					769DCE502D0B83B6002A42CB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 769DCE3F2D0B83B3002A42CB;
+					};
+					769DCE5A2D0B83B6002A42CB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 769DCE3F2D0B83B3002A42CB;
+					};
+				};
+			};
+			buildConfigurationList = 769DCE3B2D0B83B3002A42CB /* Build configuration list for PBXProject "wet3d" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769DCE372D0B83B3002A42CB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 769DCE412D0B83B3002A42CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769DCE3F2D0B83B3002A42CB /* wet3d */,
+				769DCE502D0B83B6002A42CB /* wet3dTests */,
+				769DCE5A2D0B83B6002A42CB /* wet3dUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769DCE3E2D0B83B3002A42CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE4F2D0B83B6002A42CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE592D0B83B6002A42CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769DCE3C2D0B83B3002A42CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE4D2D0B83B6002A42CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769DCE572D0B83B6002A42CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769DCE532D0B83B6002A42CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769DCE3F2D0B83B3002A42CB /* wet3d */;
+			targetProxy = 769DCE522D0B83B6002A42CB /* PBXContainerItemProxy */;
+		};
+		769DCE5D2D0B83B6002A42CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769DCE3F2D0B83B3002A42CB /* wet3d */;
+			targetProxy = 769DCE5C2D0B83B6002A42CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		769DCE632D0B83B6002A42CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		769DCE642D0B83B6002A42CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		769DCE662D0B83B6002A42CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wet3d/wet3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wet3d/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		769DCE672D0B83B6002A42CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wet3d/wet3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wet3d/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		769DCE692D0B83B6002A42CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wet3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wet3d";
+			};
+			name = Debug;
+		};
+		769DCE6A2D0B83B6002A42CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wet3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wet3d";
+			};
+			name = Release;
+		};
+		769DCE6C2D0B83B6002A42CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wet3d;
+			};
+			name = Debug;
+		};
+		769DCE6D2D0B83B6002A42CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JustServices.wet3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wet3d;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769DCE3B2D0B83B3002A42CB /* Build configuration list for PBXProject "wet3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769DCE632D0B83B6002A42CB /* Debug */,
+				769DCE642D0B83B6002A42CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769DCE652D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769DCE662D0B83B6002A42CB /* Debug */,
+				769DCE672D0B83B6002A42CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769DCE682D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769DCE692D0B83B6002A42CB /* Debug */,
+				769DCE6A2D0B83B6002A42CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769DCE6B2D0B83B6002A42CB /* Build configuration list for PBXNativeTarget "wet3dUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769DCE6C2D0B83B6002A42CB /* Debug */,
+				769DCE6D2D0B83B6002A42CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 769DCE382D0B83B3002A42CB /* Project object */;
+}
